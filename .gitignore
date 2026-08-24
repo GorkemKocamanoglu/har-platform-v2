@@ -1,0 +1,17 @@
+**/gradle.properties
+**/local.properties
+app/android/gradle.properties
+app/android/local.properties
+*.token
+.env
+*.keystore
+*.jks
+**/.dart_tool/
+**/build/
+**/.idea/
+**/*.iml
+**/ephemeral/
+**/har_model.json
+meta-wearables-dat-flutter/
+.DS_Store
+Thumbs.db
