@@ -9,7 +9,7 @@
 
 ## Files (`pipeline/`)
 - `HAR_NN_Training.ipynb` — **new:** trains a PyTorch MLP, compares it against the forest (same data, same 39 features, same leave-one-session-out split), exports to ExecuTorch.
-- `HAR_Training_v3.ipynb`, `HAR_Batch_v3.ipynb`, `HAR_Pipeline_v3.ipynb`, `har_pipeline_v3.py` — reused from V1 (forest training, labeling, pipeline). **Keep all.**
+- `HAR_Training_v3.ipynb`, `HAR_Batch_v3.ipynb`, `HAR_Pipeline_v3.ipynb`, `har_pipeline_v3.py` — reused from V1 (forest training, labeling, pipeline).
 
 ## Run the neural network (no hardware)
 Open `HAR_NN_Training.ipynb` in Colab → set `SESSIONS_DIR` to your Drive sessions folder → **Run all**. It prints a forest-vs-NN comparison table.
